@@ -6,8 +6,8 @@ permalink: /resume/
 
 # Carlos Cano Espinosa, Ph.D.
 
-**Email:** [<i class="fab fa-google"></i> ccanoespinosa@gmail.com](mailto:ccanoespinosa@gmail.com)
-**LinkedIn:** [<i class="fab fa-linkedin"></i> ccanoespinosa](https://www.linkedin.com/in/ccanoespinosa/)
+[<i class="fas fa-envelope-open"></i> ccanoespinosa@gmail.com](mailto:ccanoespinosa@gmail.com)
+[<i class="fab fa-linkedin"></i> ccanoespinosa](https://www.linkedin.com/in/ccanoespinosa/)
 
 ## Education
 
