@@ -10,24 +10,24 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+        #- name: Books
+        #  url: books/
+        #  weight: 5 
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
+        #- name: Courses
+        #  url: courses/
+        #  weight: 3
+        #- name: Data
+        #  url: data/
+        #  weight: 4 
         - name: Blog
           url: https://www.rovit.ua.es/team/carlos-cano-espinosa/
           weight: 6
 
 params:
-    description: "I am an Assistant Professor in the Department of Computer Science and Artificial Intelligence at the University of Alicante (Spain). My research centers on advanced methods for medical image analysis."
+    description: "I am an Assistant Professor in the Department of Computer Science and Artificial Intelligence at the University of Alicante (Spain), with research focused on the development of advanced methodologies for medical image analysis."
     author: Carlos Cano Espinosa
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -53,19 +53,19 @@ params:
     profileMode:
           enabled: true
           title: Carlos Cano Espinosa, PhD
-          subtitle: "I am an Assistant Professor in the Department of Computer Science and Artificial Intelligence at the University of Alicante (Spain). My research centers on advanced methods for medical image analysis."
+          subtitle: "I am an Assistant Professor in the Department of Computer Science and Artificial Intelligence at the University of Alicante (Spain), with research focused on the development of advanced methodologies for medical image analysis."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
             - name: Papers
               url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
+            #- name: Courses
+            #  url: courses/
+            #- name: Data
+            #  url: data/
+            #- name: Books
+            #  url: books/
             - name: Tags
               url: tags/
             - name: Archive

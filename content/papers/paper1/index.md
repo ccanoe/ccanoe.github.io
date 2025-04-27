@@ -1,18 +1,18 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-lastmod: 2024-07-12
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+title: "Localizing Image-Based Biomarker Regression Without Training Masks: A New Approach to Biomarker Discovery" 
+date: 2020-01-09
+lastmod: 2020-01-09
+tags: ["Biomarker direct regression","biomarker localization","coronary artery calcification","convolutional neural networks"]
+author: ["Carlos Cano-Espinosa","Germán González","George R Washko","Miguel Cazorla","Raúl San José Estépar"]
+description: "A deep learning method for simultaneous biomarker regression and localization without segmentation masks​. Published in IEEE Transactions on Medical Imaging, 2020." 
+summary: "The paper proposes a deep learning method that improves biomarker prediction and localization using only biomarker values, without requiring segmentation masks​." 
 cover:
     image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
+    alt: "Simultaneous biomarker regression and localization​"
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
+    URL: "https://ieeexplore.ieee.org/abstract/document/8954767"
+    Text: "IEEE Transactions on Medical Image"
 
 ---
 
@@ -20,19 +20,17 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
++ [Paper (open access)](https://pubmed.ncbi.nlm.nih.gov/31940523/)
 
 ---
 
 ##### Abstract
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This study proposes a novel deep learning framework for simultaneous biomarker regression and localization from medical imaging data, trained solely with biomarker value annotations and without requiring segmentation masks. The method integrates a candidate region generation step, based on simple intensity heuristics, with an encoder-decoder convolutional network that produces a high-resolution localization map. The biomarker value is computed by aggregating the localization output within the candidate regions, and the network is optimized by minimizing the difference between the predicted and ground truth biomarker values. The proposed approach was comprehensively evaluated across multiple clinical tasks, including estimation of pectoralis muscle area (PMA) and subcutaneous fat area (SFA) from 2D chest CT slices, coronary artery calcium (CAC) scoring using the Agatston method from 3D non-contrast thoracic CT volumes, and liver tumor area quantification from abdominal CT images. Experimental results demonstrate that the method consistently outperforms traditional direct regression networks in terms of biomarker estimation accuracy, risk group classification, and localization quality, while maintaining architectural simplicity and eliminating the need for post hoc attention mechanisms or structural modifications. Moreover, the framework exhibits strong generalizability across different network backbones and imaging domains. By enabling biomarker extraction without segmentation masks, this approach addresses a critical bottleneck in medical imaging studies and offers a scalable, interpretable solution for biomarker discovery from weakly labeled clinical datasets.
 
 ---
 
-##### Figure 6: Some Uses For Olive Oil
+##### Figure 12: Liver tumor localization
 
 ![](paper1.png)
 
@@ -40,23 +38,26 @@ This paper reviews unusual uses for olive oil throughout the Mediterranean world
 
 ##### Citation
 
-Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.
+C. Cano-Espinosa, G. González, G. R. Washko, M. Cazorla and R. S. J. Estépar, "Biomarker Localization From Deep Learning Regression Networks," in IEEE Transactions on Medical Imaging, vol. 39, no. 6, pp. 2121-2132, June 2020, doi: 10.1109/TMI.2020.2965486.
 
 ```BibTeX
-@article{UI13,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2013},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34},
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
+@ARTICLE{8954767,
+  author={Cano-Espinosa, Carlos and González, Germán and Washko, George R. and Cazorla, Miguel and Estépar, Raúl San José},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={Biomarker Localization From Deep Learning Regression Networks}, 
+  year={2020},
+  volume={39},
+  number={6},
+  pages={2121-2132},
+  keywords={Image segmentation;Computed tomography;Biomedical imaging;Tumors;Databases;Muscles;Fats;Biomarker direct regression;biomarker localization;coronary artery calcification;convolutional neural networks},
+  doi={10.1109/TMI.2020.2965486}}
 ```
 
 ---
 
 ##### Related material
 
+<!--
 + [Presentation slides](presentation1.pdf)
 + [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)
+-->
